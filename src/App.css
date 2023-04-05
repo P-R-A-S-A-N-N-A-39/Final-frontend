@@ -1,0 +1,28 @@
+:root {
+  --PrimaryColor: hsl(199, 100%, 30%);
+  --SecondaryColor: hsl(185, 85%, 40%);
+  --GradientColor: linear-gradient( to right, hsl(185, 85%, 40%), hsl(199, 100%, 30%));
+  --WhiteColor: hsl(0, 0%, 100%);
+  --BlackColor: hsl(200, 30%, 15%);
+  --textColor: hsl(252, 5%, 35%);
+  --WhiteColorDeam: hsl(0, 0%, 90%);
+  --greyText: rgb(190, 190, 190);
+  --inputColor: rgb(230, 230, 230);
+  --bodyColor: rgb(240, 240, 240);
+  --cardBG: rgb(220, 220, 240);
+  --cardHover: rgb(256, 255, 255);
+}
+.App {
+  text-align: center;
+}
+
+.dress{
+  width: 20%;
+  height: 60%;
+
+}
+.dress:hover{
+  background: var(--WhiteColor);
+  box-shadow: 1 4px 4px rgba(85, 85, 115, 0.5);
+  transition: 0.3s ease;
+}

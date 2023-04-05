@@ -1,0 +1,14 @@
+#header2{
+    min-height :100vh;
+    width :100%;
+     background-image: linear-gradient(rgba(25, 90, 212, 0.285),rgba(25, 90, 212, 0.177)), url(https://tse1.mm.bing.net/th?id=OIP.oH9Foju7m8ynzAEAZbm6_QHaEo&pid=Api&P=0);
+
+    background-position: center;
+    background-size: cover ;
+    position: relative;
+  }
+  #header2 h1{
+    text-align: center;
+    font-weight: 800;
+    font-size: 4em;
+  }
